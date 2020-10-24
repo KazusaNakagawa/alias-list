@@ -25,6 +25,10 @@ alias brg='bundle exec rails routes  | grep article'
 alias br='bundle exec rails routes'
 
 # rubocop
+alias rb='bundle exec rubocop -a'
+
+# Rspec
+alias rs='bundle exec rspec'
 alias rsf='bundle exec rspec spec/requests/api/v1/articles_spec.rb --tag focus'
 
 # docker
