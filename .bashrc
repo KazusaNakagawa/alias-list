@@ -2,8 +2,10 @@
 alias al='alias'
 
 # CMD
-alias ll='ls -al'
 alias cdw='cd git/wonderful_editor/'
+alias ll='ls -al'
+alias p='pwd'
+
 
 # git
 alias a='git add .'
