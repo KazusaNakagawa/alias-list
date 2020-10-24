@@ -8,17 +8,18 @@ alias p='pwd'
 
 
 # git
-alias a='git add .'
-alias d='git diff'
-alias s='git s'
-alias c='git commit -m'
-alias r='git reset'
-alias b='git branch'
+alias ga='git add .'
+alias gd='git diff'
+alias gs='git s'
+alias gc='git commit -m'
+alias gr='git reset'
+alias gb='git branch'
+alias gp='git push origin feature'
 
-alias ch='git checkout'
-alias cm='git checkout main'
-alias cf='git checkout feature'
-alias bn='git checkout -b'
+alias gch='git checkout'
+alias gcm='git checkout main'
+alias gcf='git checkout feature'
+alias gbn='git checkout -b'
 
 # rails
 alias brg='bundle exec rails routes  | grep article'
