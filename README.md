@@ -1,1 +1,2 @@
-# alias-list
+## alias-list
+* alias 設定の控え
