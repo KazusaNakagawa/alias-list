@@ -22,8 +22,11 @@ alias gcf='git checkout feature'
 alias gbn='git checkout -b'
 
 # rails
-alias brg='bundle exec rails routes  | grep article'
-alias br='bundle exec rails routes'
+alias ber='bundle exec rails routes'
+alias berg='bundle exec rails routes  | grep article'
+alias be='bundle exec rails'
+alias bec='bundle exec rails c'
+alias bes='bundle exec rails s'
 
 # rubocop
 alias rb='bundle exec rubocop -a'
