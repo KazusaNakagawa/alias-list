@@ -24,7 +24,7 @@ alias gbn='git checkout -b'
 # rails
 alias ber='bundle exec rails routes'
 alias berg='bundle exec rails routes  | grep article'
-alias be='bundle exec rails'
+alias be='bundle exec'
 alias bec='bundle exec rails c'
 alias bes='bundle exec rails s'
 
