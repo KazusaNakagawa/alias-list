@@ -39,3 +39,9 @@ alias rsf='bundle exec rspec spec/requests/api/v1/articles_spec.rb --tag focus'
 alias dcu='docker-compose up -d'
 alias dcs='docker-compose stop'
 alias dca='docker-compose ps -a'
+
+# rbenv
+eval "$(rbenv init -)"
+
+# nodenv
+eval "$(nodenv init -)"
