@@ -3,6 +3,7 @@ alias al='alias'
 
 # CMD
 alias cdw='cd git/wonderful_editor/'
+alias cl='clear'
 alias ll='ls -al'
 alias p='pwd'
 
