@@ -22,6 +22,9 @@ alias gcm='git checkout main'
 alias gcf='git checkout feature'
 alias gbn='git checkout -b'
 
+alias gfe='git fetch origin main'
+alias gpul='git pull origin main'
+
 # rails
 alias ber='bundle exec rails routes'
 alias berg='bundle exec rails routes  | grep article'
