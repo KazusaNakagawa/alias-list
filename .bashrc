@@ -15,7 +15,7 @@ alias gs='git s'
 alias gc='git commit -m'
 alias gr='git reset'
 alias gb='git branch'
-alias gp='git push origin feature'
+alias gp='git push origin'
 
 alias gch='git checkout'
 alias gcm='git checkout main'
@@ -27,7 +27,7 @@ alias gpul='git pull origin main'
 
 # rails
 alias ber='bundle exec rails routes'
-alias berg='bundle exec rails routes  | grep article'
+alias berg='bundle exec rails routes | grep article'
 alias be='bundle exec'
 alias bec='bundle exec rails c'
 alias bes='bundle exec rails s'
