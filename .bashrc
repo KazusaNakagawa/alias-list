@@ -11,7 +11,7 @@ alias p='pwd'
 # git
 alias ga='git add .'
 alias gd='git diff'
-alias gs='git s'
+alias gs='git status'
 alias gc='git commit -m'
 alias gr='git reset'
 alias gb='git branch'
