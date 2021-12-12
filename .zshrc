@@ -55,9 +55,10 @@ alias ll='ls -al'
 alias p='pwd'
 
 # git
-alias ga='git add .'
+alias ga='git add'
 alias gd='git diff'
-alias gs='git s'
+alias gds='git diff --staged'
+alias gs='git status'
 alias gc='git commit -m'
 alias gr='git reset'
 alias gb='git branch'
@@ -83,9 +84,10 @@ alias rs='bundle exec rspec'
 alias rsf='bundle exec rspec spec/requests/api/v1/articles_spec.rb --tag focus'
 
 # docker
-alias dcu='docker-compose up -d'
+alias dcu='docker-compose up'
 alias dcs='docker-compose stop'
 alias dca='docker-compose ps -a'
+alias docker-purge='docker stop $(docker ps -q) && docker rmi $(docker images -q) -f'
 
 # alias done -------------------------------------
 

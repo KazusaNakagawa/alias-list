@@ -9,13 +9,15 @@ alias p='pwd'
 
 
 # git
-alias ga='git add .'
+alias ga='git add'
 alias gd='git diff'
+alias gds='git diff --staged'
 alias gs='git status'
 alias gc='git commit -m'
 alias gr='git reset'
 alias gb='git branch'
 alias gp='git push origin'
+alias glog='git log --oneline --graph'
 
 alias gch='git checkout'
 alias gcm='git checkout main'
@@ -40,7 +42,7 @@ alias rs='bundle exec rspec'
 alias rsf='bundle exec rspec spec/requests/api/v1/articles_spec.rb --tag focus'
 
 # docker
-alias dcu='docker-compose up -d'
+alias dcu='docker-compose up'
 alias dcs='docker-compose stop'
 alias dca='docker-compose ps -a'
 
