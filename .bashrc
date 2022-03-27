@@ -46,6 +46,9 @@ alias dcu='docker-compose up'
 alias dcs='docker-compose stop'
 alias dca='docker-compose ps -a'
 
+# yarn
+alias yp='yarn prettier --write'
+
 # rbenv
 eval "$(rbenv init -)"
 
