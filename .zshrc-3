@@ -1,6 +1,6 @@
 # Git # -----------------
 # git-promptの読み込み
-source ~/.zsh/git-prompt.sh
+source /usr/local/etc/bash_completion.d/git-prompt.sh
 
 # git-completionの読み込み
 fpath=(~/.zsh $fpath)
@@ -19,13 +19,15 @@ setopt PROMPT_SUBST ; PS1='%: %F{blue}%~%f %F{green} $(__git_ps1 "(🍡 %s)")%f\
 # -----------------
 
 # rbenv
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 # nodenv
-eval "$(nodenv init -)"
+# eval "$(nodenv init -)"
 
 # .bashrc の読み込み
 source ~/alias-list/.bashrc
 # Setting PATH for Python 3.9
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
+alias python=python3
+alias pip=pip3

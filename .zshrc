@@ -1,10 +1,10 @@
 # ---- START bash setting copy ----
 function join_by { local IFS="$1"; shift; echo "$*"; }
 function _ps1_git_username {
-local git_users_array=`git config --global --get-all user.name`
-git_users=`join_by , $git_users_array`
-# test "$git_users" == 'KazusaNakagawa' && echo "🐳" && return
-# test "$git_users" && echo "$git_users" && return
+  local git_users_array=`git config --global --get-all user.name`
+  git_users=`join_by , $git_users_array`
+  # test "$git_users" == 'KazusaNakagawa' && echo "🐳" && return
+  # test "$git_users" && echo "$git_users" && return
 echo "No Git User"
 }
 # PS1 is the variable for the prompt you see everytime you hit enter

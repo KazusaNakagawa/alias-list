@@ -50,7 +50,7 @@ alias dca='docker-compose ps -a'
 alias yp='yarn prettier --write'
 
 # rbenv
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 # nodenv
-eval "$(nodenv init -)"
+# eval "$(nodenv init -)"
