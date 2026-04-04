@@ -4,7 +4,8 @@ alias al='alias'
 # CMD
 alias cdw='cd git/wonderful_editor/'
 alias cl='clear'
-alias ll='ls -al'
+alias ll='ls -alG'
+alias ls='ls -G'
 alias p='pwd'
 
 
@@ -13,6 +14,7 @@ alias ga='git add'
 alias gd='git diff'
 alias gds='git diff --staged'
 alias gs='git status'
+alias gsw='git switch'
 alias gc='git commit -m'
 alias gr='git reset'
 alias gb='git branch'
